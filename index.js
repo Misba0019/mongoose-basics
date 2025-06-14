@@ -32,3 +32,4 @@ const Movie = mongoose.model('Movie', movieSchema); // Capital letter in the sta
 // }) // Promise
 // Here, we're creating a new Movies and saving it in the database
 
+// Use db.movies.find() to find all movies in the DataBase.

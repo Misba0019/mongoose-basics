@@ -44,3 +44,5 @@ personSchema.post('save', async function () {
 
 const Person = mongoose.model('Person', personSchema);
 // Create a Person Model
+
+//Use db.people.find() to find all people in the DataBase.
